@@ -1,35 +1,29 @@
-# Chainlit Cookbook
+Title: OpenAI Assistant API with Chainlit
+Tags: [openai, assistant-api]
 
-Welcome to the Chainlit Demos repository! Here you'll find a collection of example projects demonstrating how to use Chainlit to create amazing chatbot UIs with ease. Each folder in this repository represents a separate demo project.
+# OpenAI Assistant API with Chainlit
 
-## 🚀 Getting Started
+![OpenAI Assistant](https://github.com/Chainlit/cookbook/assets/13104895/8a56c03f-ca04-4d64-b8a7-72498b4e274f)
 
-To run a demo, follow these steps:
+This repository contains code for integrating OpenAI's Assistant API with Chainlit to create a versatile assistant capable of handling math queries and providing weather updates.
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/Chainlit/cookbook.git chainlit-cookbook
-   ```
-2. Navigate to the desired demo folder:
-   ```
-   cd chainlit-cookbook/demo-folder-name
-   ```
-3. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-4. Create a `.env` file based on the provided `.env.example` file:
-   ```
-   cp .env.example .env
-   ```
-   Modify the `.env` file as needed to include any necessary API keys or configuration settings.
-5. Run the Chainlit app in watch mode:
-   ```
-   chainlit run app.py -w
-   ```
+## Features
 
-Your demo chatbot UI should now be up and running in your browser!
+- **Math Tutor**: Solve math problems by writing and running code. Math expressions are displayed using LaTeX for clarity.
+- **Weather Bot**: Get current weather and N-day forecasts based on user location and preferred temperature unit.
+- **Interactive UI**: Chainlit provides an interactive user interface for inputting queries and displaying responses.
 
-## 💁 Contributing
+## Quickstart
 
-We'd love to see more demos showcasing the power of Chainlit. If you have an idea for a demo or want to contribute one, please feel free to open an issue or create a pull request. Your contributions are highly appreciated!
+To get started with the OpenAI Assistant API with Chainlit, follow these steps:
+
+1. Clone the repository and navigate to the `openai-assistant` directory.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Set up your environment variables by creating a `.env` file with your `OPENAI_API_KEY` and `ASSISTANT_ID`.
+4. Run the `create_assistant.py` script to create an assistant instance.
+5. Start the Chainlit app by running `app.py`.
+
+### Example Usage
+
+
+Note: Streaming is not supported yet.
